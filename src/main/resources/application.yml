@@ -8,7 +8,7 @@ spring:
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DB:spring_boot_tutorial_dev}
     username: ${MYSQL_USER:user_dev}
-    password: ${MYSQL_PASS:password}
+    password: ${MYSQL_PASS:pass}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate.ddl-auto: update
@@ -21,18 +21,9 @@ spring:
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DB:spring_boot_tutorial_prod}
     username: ${MYSQL_USER:user_prod}
-    password: ${MYSQL_PASS:password}
+    password: ${MYSQL_PASS:pass}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate.ddl-auto: update
     show-sql: true
     properties.hibernate.format_sql: true
-
-#spring:
-#  datasource:
-#    url: jdbc:h2:mem:dev
-#    driverClassName: org.h2.Driver
-#    username: sa
-#    password: password
-#  jpa:
-#    database-platform: org.hibernate.dialect.H2Dialect
