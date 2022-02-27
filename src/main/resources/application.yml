@@ -3,8 +3,8 @@ server.port: 8081
 hello.message: Hello World!
 
 ---
-spring.config.activate.on-profile: dev
 spring:
+  config.activate.on-profile: dev
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DB:spring_boot_tutorial_dev}
     username: ${MYSQL_USER:user_dev}
@@ -16,8 +16,8 @@ spring:
     properties.hibernate.format_sql: true
 
 ---
-spring.config.activate.on-profile: prod
 spring:
+  config.activate.on-profile: prod
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DB:spring_boot_tutorial_prod}
     username: ${MYSQL_USER:user_prod}
