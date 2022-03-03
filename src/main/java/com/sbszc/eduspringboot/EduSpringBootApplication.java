@@ -1,13 +1,13 @@
-package com.sbszc.springboottutorial;
+package com.sbszc.eduspringboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootTutorialApplication {
+public class EduSpringBootApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootTutorialApplication.class, args);
+        SpringApplication.run(EduSpringBootApplication.class, args);
     }
 
 }

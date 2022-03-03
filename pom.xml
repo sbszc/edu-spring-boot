@@ -12,10 +12,10 @@
     </parent>
 
     <groupId>com.sbszc</groupId>
-    <artifactId>spring-boot-tutorial</artifactId>
+    <artifactId>edu-spring-boot</artifactId>
     <version>1.0.0</version>
-    <name>spring-boot-tutorial</name>
-    <description>Tutorial project for Spring Boot</description>
+    <name>edu-spring-boot</name>
+    <description>Educational project for spring boot</description>
 
     <properties>
         <java.version>11</java.version>
